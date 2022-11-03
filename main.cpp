@@ -8,9 +8,10 @@ int main()
 	int a[size], i;
 	int mx1 = 0; int mx2 = 0; int mx3 = 0;
 
-	cout << "Введите элементы целочисленного массива:" "\n" << endl;
-	for (i = 0; i < size; i++)
-		cin >> a[i];
+    	cout << "Введите элементы целочисленного массива:" "\n" << endl;
+	for (int i = 0; i < size; i++){
+        cout << "a[" << i << "] = ";
+		cin >> a[i];}
 
 	for (int n = 0; n < size; n++) {
 		if (a[n] > mx1)
